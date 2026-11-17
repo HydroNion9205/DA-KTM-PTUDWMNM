@@ -47,3 +47,19 @@ Nạp lại dữ liệu từ đầu (xóa toàn bộ dữ liệu cũ):
 ```bash
 docker compose down -v && docker compose up -d
 ```
+
+# Phân công
+
+## Giai đoạn 1: Khởi tạo và thiết lập nền tảng
+
+| STT | Công việc | Người phụ trách | File / thư mục thực hiện | Yêu cầu đầu ra |
+|---:|---|---|---|---|
+| 1 | Khởi tạo cấu trúc dự án | Lê Trung Hiếu | `app/`, `public/`, `docker/`, `mysql/` | Tạo cấu trúc dự án theo chuẩn MVC, sẵn sàng phát triển. |
+| 2 | Thiết lập Docker | Đinh Hữu Nhân | `docker-compose.yml`, `docker/php/Dockerfile`, `docker/php/php.ini` | Môi trường PHP + MySQL chạy ổn định, có cổng và volume đúng cấu hình. |
+| 3 | Khởi tạo cơ sở dữ liệu | Huỳnh Tân Khoa | `docker/mysql/01_schema.sql`, `database/schema.sql`, `database/seeders/` | Xác định các bảng chính, quan hệ, khóa và dữ liệu mẫu ban đầu. |
+| 4 | Phân tích cấu trúc dự án | Lê Trung Hiếu | `docs/project-structure.md`, `docs/architecture.md` | Mô tả rõ kiến trúc MVC, luồng xử lý, quy tắc đặt tên và tổ chức module. |
+| 5 | Thiết lập cấu hình CodeIgniter | Lê Trung Hiếu | `app/Config/Database.php`, `app/Config/Routes.php`, `.env` | Kết nối ứng dụng với MySQL thành công và định tuyến hệ thống hoạt động. |
+| 6 | Thiết kế giao diện trang chủ | Đinh Hữu Nhân | `app/Views/layouts/`, `app/Views/home/`, `public/assets/` | Trang chủ có bố cục rõ ràng, header, footer, navigation và giao diện thân thiện. |
+
+## Ghi chú:
+- Mọi thành viên có thể liên lạc nhau để họp và bàn luận trước khi thực hiện công việc
