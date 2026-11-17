@@ -64,3 +64,7 @@ docker compose down -v && docker compose up -d
 
 ## Ghi chú:
 - Mọi thành viên có thể liên lạc nhau để họp và bàn luận trước khi thực hiện công việc
+
+# note:
+
+thiết kế, cài đặt, vẽ mô hình ERD, DRD, phân tích đối tượng
