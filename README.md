@@ -1,6 +1,11 @@
 # 🏨 Hotel Booking – Quản lý đặt phòng khách sạn trực tuyến
 
 Đồ án môn **Phát triển ứng dụng web mã nguồn mở**. Website cho phép khách xem loại phòng, tra cứu phòng trống và đặt phòng online; quản trị viên quản lý phòng, đơn đặt phòng và thanh toán.
+## Nhóm thực hiện
+### Thành viên nhóm
+- Đinh Hữu Nhân - 110123032 - DA23TTA
+- Huỳnh Tân Khoa - DA23TTA
+- Lê Trung Hiếu - 110123011 - DA23TTA
 
 ## Công nghệ
 - **CodeIgniter 4** (PHP 8.2, Apache) – đảm nhận cả back-end và front-end (View)
@@ -26,7 +31,7 @@ hotel-booking/
 ```
 (Các thư mục còn lại như `system`, `vendor`, `spark`, `composer.json`... được tự sinh ở lần chạy đầu.)
 
-## Chạy dự án
+## Hướng dẫn cài đặt
 ```bash
 cp .env.example .env     
 docker compose up -d --build
